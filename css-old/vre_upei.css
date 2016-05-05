@@ -1,0 +1,140 @@
+/**
+ * Footheme footheme.css
+ *
+ * Use this file to add your custom styles.
+ *
+ * You can change the name of this file, just
+ * remember to update the name in the info file
+ * as well.
+ */
+
+ /*=====================================
+ =            utilities            =
+ =====================================*/
+.frame-image {
+  border: 1px solid #ccc;
+  padding: 4px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+ /*-----  End of utilities  ------*/
+
+
+
+
+
+ /*=====================================
+ =            general stuff            =
+ =====================================*/
+ 
+ul.primary li a { font-weight: normal; }
+ 
+ /*-----  End of general stuff  ------*/
+ 
+ 
+
+ /*=================================
+ =            header stuff            =
+ =================================*/
+ 
+#logo { border-right: 1px solid #ccc; margin-right: 18px; }
+#name-and-slogan { padding-top: 5px; }
+#site-name, #site-slogan { display: block; line-height: 1; padding-top: 5px; }
+#branding { margin: 0px; }/* this needs to be adjusted depending on the menus ie: add margin if the menus are gone */
+
+
+/*==========  search box when in header block  ==========*/
+
+.region-header div#block-islandora-solr-simple { margin-top: 26px; }
+div#block-islandora-solr-simple input#edit-islandora-simple-search-query { border: 1px solid rgb(210, 210, 210); font-size: 14px; padding: 6px; }
+div#block-islandora-solr-simple input#edit-submit { height: 31px; border: 1px solid rgb(210, 210, 210); }
+
+/*==========  menu bar  ==========*/
+
+#menu-bar { border-radius: 4px; }
+div#menu-wrapper {
+  border-radius: 4px;
+  padding-left: 5px;
+  min-height: inherit;
+  background: rgb(51, 51, 51);
+}
+/*#menu-bar a:first-child:hover {
+	border-radius: 4px 0 0 4px;
+}
+#menu-bar li.first:hover {
+    border-radius: 4px;
+}*/
+#menu-bar a.active {
+color: rgb(247, 183, 81);
+}
+
+.responsive-menus.responsified span.toggler {
+    box-shadow: none;
+}
+
+.responsive-menus.responsified .responsive-menus-simple {
+    box-shadow: none;
+}
+ /*-----  End of header stuff  ------*/
+
+
+
+ /*===================================
+ =            UPEI Footer            =
+ ===================================*/
+ 
+.bottom-links { display: none;}
+.bottom-links ul { border-left: 1px solid #C3C3C3;}
+.socialmedia { margin: 10px 0; }
+div#footer-wrapper { background: #333; }
+.upei-footer { font-size: 13px; }
+.upei-footer h2 { font-size: 20px; color: #fff; font-weight: normal;}
+.upei-footer a { color: #ccc; }
+.upei-footer a:hover { color: rgb(247, 183, 81); }
+.upei-footer .links-last, .upei-footer .links-last a { color: #ccc; }
+.upei-footer li { line-height: 142%; }
+.upei-footer .address { color: #fff; }
+.upei-footer ul.menu li.leaf { list-style-image: none; list-style-type: none; margin-left: 5px; }
+.upei-footer ul.menu { padding:0px; margin: 0px; }
+
+@media (min-width:600px) {
+  div#links-section { overflow: hidden; *zoom: 1; }
+  /* .menu-01 { width: 28.57143%; float: left; margin-right: -100%; margin-left: 0; clear: none; }
+  .menu-02 { width: 28.57143%; float: left; margin-right: -100%; margin-left: 35.71429%; clear: none; }
+  .menu-03 { width: 28.57143%; float: right; margin-left: 0; margin-right: 0; clear: none; }
+  .menu-04 { width: 28.57143%; clear: right; float: left; margin-left: 0; margin-right: 7.14286%; clear: both; }
+  .menu-05 { width: 28.57143%; clear: right; float: left; margin-right: 7.14286%; }
+  */
+  .inner-footeraddress { margin-top: 10px; }
+  .footeraddress { width: 100%; clear: right; float: right; margin-right: 0; }
+  .socialmedia { padding: 12px 0; }
+}
+
+@media (min-width:800px) {
+  .socialmedia { margin: 0; }
+  .bottom-links { display: inherit; }
+  .socialmedia { padding: 12px 0; }
+  div#links-section { overflow: hidden; *zoom: 1; }
+  .menu-01 { width: 18.18182%; float: left; margin-right: -100%; margin-left: 0; clear: none; }
+  .menu-02 { width: 18.18182%; float: left; margin-right: -100%; margin-left: 20.45455%; clear: none; }
+  .menu-03 { width: 18.18182%; float: left; margin-right: -100%; margin-left: 40.90909%; clear: none; }
+  .menu-04 { width: 18.18182%; float: left; margin-right: -100%; margin-left: 61.36364%; clear: none; }
+  .menu-05 { width: 18.18182%; float: right; margin-left: 0; margin-right: 0; clear: none; }
+  .inner-footeraddress { margin-top: 10px; overflow: hidden; *zoom: 1; }
+  .footeraddress { width: 100%; float: right; margin-left: 0; margin-right: 0; clear: none; border-top: 4px solid rgb(139, 31, 3); padding-top: 10px; margin-top: 5px; }
+  .addressleft { width: 59.09091%; float: left; margin-right: -100%; margin-left: 0; clear: none; }
+  .footerlogo { width: 18.18182%; float: right; margin-left: 0; margin-right: 0; clear: none; }
+  .socialmedia { width: 18.18182%; float: left; margin-right: -100%; margin-left: 61.36364%; clear: none; text-align: right; padding-top: 27px; }
+}
+
+ 
+ /*-----  End of UPEI Footer  ------*/
+ 
+ 
+body.page-islandora-object {
+  font-size: 100%;
+}
+
+#BRpager {background: initial; border: 0px;} 
+#header-wrapper header {margin: 10px;} 

@@ -1,16 +1,15 @@
+@charset "UTF-8";
 header#header div#branding {
   float: none;
   margin: auto;
-  text-align: center;
-}
+  text-align: center; }
 
 header#header div.region-header {
   display: table;
   float: none;
   margin: 15px auto 0;
   text-align: center;
-  width: auto;
-}
+  width: auto; }
 
 header#header div.region-header .block {
   clear: both;
@@ -18,12 +17,10 @@ header#header div.region-header .block {
   margin: auto;
   padding: 0 0 10px !important;
   text-align: left;
-  width: auto;
-}
+  width: auto; }
 
 header#header div.region-header .block-inner {
-  margin: 0 20px;
-}
+  margin: 0 20px; }
 
 header#header div#logo,
 header#header h1#site-name,
@@ -31,23 +28,19 @@ header#header h2#site-slogan {
   float: none;
   margin: 0;
   padding: 0 0 6px;
-  text-align: center;
-}
+  text-align: center; }
 
 #menu-bar-wrapper,
 #menu-bar {
   min-height: 3em;
-  height: auto;
-}
+  height: auto; }
 
 #menu-bar {
-  padding: 0 2px;
-}
+  padding: 0 2px; }
 
 #menu-bar .block {
   clear: both;
-  float: none;
-}
+  float: none; }
 
 #menu-bar .menu-wrapper > ul,
 #menu-bar .menu-wrapper > ul > li {
@@ -55,56 +48,44 @@ header#header h2#site-slogan {
   float: none;
   margin: 0;
   overflow: hidden;
-  border-bottom: 1px solid rgba(255,255,255,0.5);
-}
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
 
 #menu-bar .menu-wrapper ul > li > a {
   padding: 6px 10px 8px;
-  -moz-border-radius: 0 !important;
-  -webkit-border-radius: 0 !important;
-  border-radius: 0 !important;
-}
+  border-radius: 0 !important; }
 
 #menu-bar .menu-wrapper ul,
 #menu-bar .menu-wrapper ul li.last {
-  border: 0;
-}
+  border: 0; }
 
 #menu-bar .sf-menu {
   height: auto;
-  padding: 2px 0;
-}
+  padding: 2px 0; }
 
 .region-header .block {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 .region-draw .block {
   float: none;
   display: block;
   min-width: 0;
   max-width: 100%;
-  margin: 0 auto 10px;
-}
+  margin: 0 auto 10px; }
 
 .node-title {
-  font-size: 1.5em;
-}
+  font-size: 1.5em; }
 
 #secondary-content-wrapper .block-content-inner {
-  padding: 0;
-}
+  padding: 0; }
 
-#secondary-content-wrapper .block-content-inner  img {
+#secondary-content-wrapper .block-content-inner img {
   max-width: 280px;
   display: block;
-  margin: 10px auto;
-}
+  margin: 10px auto; }
 
 #secondary-content-wrapper .block-content-inner .views-row {
   max-width: 90%;
-  margin: auto;
-}
+  margin: auto; }
 
 #secondary-content-wrapper .block-content-inner .image-right,
 #secondary-content-wrapper .block-content-inner .image-left,
@@ -112,17 +93,13 @@ header#header h2#site-slogan {
   float: none !important;
   display: block !important;
   margin: auto !important;
-  text-align: center !important;
-}
+  text-align: center !important; }
 
 .flexslider ul.flex-direction-nav {
-  top: 10px !important;
-}
+  top: 10px !important; }
 
 .content-display-grid .block-inner {
-  margin: 0;
-}
-
+  margin: 0; }
 
 /* Force tableviews-view-grid to not be like a table anymore */
 table.views-view-grid,
@@ -132,60 +109,49 @@ table.views-view-grid th,
 table.views-view-grid td,
 table.views-view-grid tr {
   display: block;
-  padding: 0;
-}
+  padding: 0; }
 
 /* Hide table headers */
 table.views-view-grid thead tr {
   position: absolute;
   top: -9999px;
-  left: -9999px;
-}
+  left: -9999px; }
 
 .views-view-grid td {
-  position: relative;
-}
+  position: relative; }
 
 .views-view-grid .field-type-image img {
   padding-left: 0;
-  padding-right: 0;
-}
+  padding-right: 0; }
 
 /* Calendar */
 .view .date-nav-wrapper .date-heading {
-  text-align: left;
-}
+  text-align: left; }
 
 .calendar-calendar .month-view table.full {
-  position: relative;
-}
+  position: relative; }
 
 .calendar-calendar .month-view .full tr td {
   width: 100%;
   float: left;
-  text-align: left;
-}
+  text-align: left; }
 
 .calendar-calendar tbody tr:hover td {
-  background: none;
-}
+  background: none; }
 
 .calendar-calendar .month-view .full tr.single-day {
-  border-top: 1px solid #ccc;
-}
+  border-top: 1px solid #ccc; }
 
 .calendar-calendar .month-view .full tr td.single-day:before {
-  content: attr(data-day-of-month) ",\0000a0" attr(headers);
-  font-weight: bold;
-}
+  content: attr(data-day-of-month) ", " attr(headers);
+  font-weight: bold; }
 
 .calendar-calendar .month-view .full thead tr,
 .calendar-calendar .month-view .full tr th.days,
 .calendar-calendar .month-view .full tr td.date-box,
 .calendar-calendar .month-view .full tr td.no-entry,
 .calendar-calendar .month-view .full tr td.empty {
-  display: none;
-}
+  display: none; }
 
 /*======================================
 =            robs overrides            =
@@ -193,20 +159,21 @@ table.views-view-grid thead tr {
 .hl-l #logo,
 .hl-l .h-group {
   margin: 0px;
-  float: none ;
+  float: none;
   text-align: center;
-  border: none;
-}
-.sna-l #site-name,.ssa-l #site-slogan {text-align:center; margin-left: 28px;}
+  border: none; }
 
-.region-header div#block-islandora-solr-simple { margin-top: 0px; }
+.sna-l #site-name, .ssa-l #site-slogan {
+  text-align: center;
+  margin-left: 28px; }
+
+.region-header div#block-islandora-solr-simple {
+  margin-top: 0px; }
+
 .hl-l .region-header {
   float: none;
-  margin: 0px 0 0 20px;
-}
-
-
+  margin: 0px 0 0 20px; }
 
 /*-----  End of robs overrides  ------*/
 
-
+/*# sourceMappingURL=responsive.smartphone.portrait.css.map */

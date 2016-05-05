@@ -12,17 +12,22 @@
  * NOTE: this file loads by default, to disable got to your theme settings and
  * look under the "CSS" settings tab.
  */
+
 /* Some basic examples of cascading media queries. */
+
 /* Really small screens and up 
 @media only screen and (min-width: 220px) {
 }
 */
+
 /* Smartphone sizes and up 
 @media only screen and (min-width: 320px) {
 }
 */
+
 /* Smartphone sizes and down */
 @media only screen and (max-width: 480px) {
+  
   /*
     Float Region blocks example:
     In smaller screen sizes we can remove the float and widths so all blocks
@@ -36,15 +41,17 @@
   */
   .region[class*="float-blocks"] .block {
     float: none;
-    width: 100%; } }
+    width: 100%;
+  }
+
+}
 
 /* Tablet sizes and up 
 @media only screen and (min-width: 768px) {
 }
 */
+
 /* Desktops/laptops and up 
 @media only screen and (min-width: 1025px) {
 }
 */
-
-/*# sourceMappingURL=responsive.custom.css.map */
