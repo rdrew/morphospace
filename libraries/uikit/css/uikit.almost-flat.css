@@ -7,30 +7,6 @@
  * 2. Prevents iOS text size adjust after orientation change, without disabling user zoom
  * 3. Style
  */
-html {
-  /* 1 */
-  font: normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /* 2 */
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  /* 3 */
-  background: #ffffff;
-  color: #444444;
-}
-/*
- * Removes default margin.
- */
-body {
-  margin: 0;
-}
-/* Links
- ========================================================================== */
-/*
- * Remove the gray background color from active links in IE 10.
- */
-a {
-  background: transparent;
-}
 /*
  * Improve readability of focused elements when they are also in an active/hover state.
  */
