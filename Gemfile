@@ -17,6 +17,7 @@ group :development do
   gem 'css_parser'              # Helps `compass stats` output statistics.
   gem 'bourbon'                 # Bourbon mixin library.
   gem 'neat'                    # Bourbon Neat grid framework.
+  gem 'semantic-ui-sass'
   gem 'bitters'                 # Scaffold styles, variables and structure for Bourbon projects.
 
   # Guard
