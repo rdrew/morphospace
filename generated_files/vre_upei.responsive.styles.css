@@ -34,10 +34,10 @@
     "Float Region blocks" is an extension for floating blocks in regions, see
     your themes appearance settings, under the Extensions tab.
   */
+  /* line 42, ../sass/responsive.custom.scss */
   .region[class*="float-blocks"] .block {
     float: none;
     width: 100%; } }
-
 /* Tablet sizes and up 
 @media only screen and (min-width: 768px) {
 }
@@ -52,11 +52,13 @@
 
 @media only screen and (max-width:320px) {
 
+/* line 1, ../sass/responsive.smartphone.portrait.scss */
 header#header div#branding {
   float: none;
   margin: auto;
   text-align: center; }
 
+/* line 7, ../sass/responsive.smartphone.portrait.scss */
 header#header div.region-header {
   display: table;
   float: none;
@@ -64,6 +66,7 @@ header#header div.region-header {
   text-align: center;
   width: auto; }
 
+/* line 15, ../sass/responsive.smartphone.portrait.scss */
 header#header div.region-header .block {
   clear: both;
   display: block;
@@ -72,9 +75,11 @@ header#header div.region-header .block {
   text-align: left;
   width: auto; }
 
+/* line 24, ../sass/responsive.smartphone.portrait.scss */
 header#header div.region-header .block-inner {
   margin: 0 20px; }
 
+/* line 28, ../sass/responsive.smartphone.portrait.scss */
 header#header div#logo,
 header#header h1#site-name,
 header#header h2#site-slogan {
@@ -83,18 +88,22 @@ header#header h2#site-slogan {
   padding: 0 0 6px;
   text-align: center; }
 
+/* line 37, ../sass/responsive.smartphone.portrait.scss */
 #menu-bar-wrapper,
 #menu-bar {
   min-height: 3em;
   height: auto; }
 
+/* line 43, ../sass/responsive.smartphone.portrait.scss */
 #menu-bar {
   padding: 0 2px; }
 
+/* line 47, ../sass/responsive.smartphone.portrait.scss */
 #menu-bar .block {
   clear: both;
   float: none; }
 
+/* line 52, ../sass/responsive.smartphone.portrait.scss */
 #menu-bar .menu-wrapper > ul,
 #menu-bar .menu-wrapper > ul > li {
   display: block;
@@ -103,21 +112,28 @@ header#header h2#site-slogan {
   overflow: hidden;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
 
+/* line 61, ../sass/responsive.smartphone.portrait.scss */
 #menu-bar .menu-wrapper ul > li > a {
   padding: 6px 10px 8px;
+  -moz-border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
   border-radius: 0 !important; }
 
+/* line 68, ../sass/responsive.smartphone.portrait.scss */
 #menu-bar .menu-wrapper ul,
 #menu-bar .menu-wrapper ul li.last {
   border: 0; }
 
+/* line 73, ../sass/responsive.smartphone.portrait.scss */
 #menu-bar .sf-menu {
   height: auto;
   padding: 2px 0; }
 
+/* line 78, ../sass/responsive.smartphone.portrait.scss */
 .region-header .block {
   overflow: hidden; }
 
+/* line 82, ../sass/responsive.smartphone.portrait.scss */
 .region-draw .block {
   float: none;
   display: block;
@@ -125,21 +141,26 @@ header#header h2#site-slogan {
   max-width: 100%;
   margin: 0 auto 10px; }
 
+/* line 90, ../sass/responsive.smartphone.portrait.scss */
 .node-title {
   font-size: 1.5em; }
 
+/* line 94, ../sass/responsive.smartphone.portrait.scss */
 #secondary-content-wrapper .block-content-inner {
   padding: 0; }
 
+/* line 98, ../sass/responsive.smartphone.portrait.scss */
 #secondary-content-wrapper .block-content-inner img {
   max-width: 280px;
   display: block;
   margin: 10px auto; }
 
+/* line 104, ../sass/responsive.smartphone.portrait.scss */
 #secondary-content-wrapper .block-content-inner .views-row {
   max-width: 90%;
   margin: auto; }
 
+/* line 109, ../sass/responsive.smartphone.portrait.scss */
 #secondary-content-wrapper .block-content-inner .image-right,
 #secondary-content-wrapper .block-content-inner .image-left,
 .field-type-image {
@@ -148,13 +169,16 @@ header#header h2#site-slogan {
   margin: auto !important;
   text-align: center !important; }
 
+/* line 118, ../sass/responsive.smartphone.portrait.scss */
 .flexslider ul.flex-direction-nav {
   top: 10px !important; }
 
+/* line 122, ../sass/responsive.smartphone.portrait.scss */
 .content-display-grid .block-inner {
   margin: 0; }
 
 /* Force tableviews-view-grid to not be like a table anymore */
+/* line 128, ../sass/responsive.smartphone.portrait.scss */
 table.views-view-grid,
 table.views-view-grid thead,
 table.views-view-grid tbody,
@@ -165,40 +189,50 @@ table.views-view-grid tr {
   padding: 0; }
 
 /* Hide table headers */
+/* line 139, ../sass/responsive.smartphone.portrait.scss */
 table.views-view-grid thead tr {
   position: absolute;
   top: -9999px;
   left: -9999px; }
 
+/* line 145, ../sass/responsive.smartphone.portrait.scss */
 .views-view-grid td {
   position: relative; }
 
+/* line 149, ../sass/responsive.smartphone.portrait.scss */
 .views-view-grid .field-type-image img {
   padding-left: 0;
   padding-right: 0; }
 
 /* Calendar */
+/* line 155, ../sass/responsive.smartphone.portrait.scss */
 .view .date-nav-wrapper .date-heading {
   text-align: left; }
 
+/* line 159, ../sass/responsive.smartphone.portrait.scss */
 .calendar-calendar .month-view table.full {
   position: relative; }
 
+/* line 163, ../sass/responsive.smartphone.portrait.scss */
 .calendar-calendar .month-view .full tr td {
   width: 100%;
   float: left;
   text-align: left; }
 
+/* line 169, ../sass/responsive.smartphone.portrait.scss */
 .calendar-calendar tbody tr:hover td {
   background: none; }
 
+/* line 173, ../sass/responsive.smartphone.portrait.scss */
 .calendar-calendar .month-view .full tr.single-day {
   border-top: 1px solid #ccc; }
 
+/* line 177, ../sass/responsive.smartphone.portrait.scss */
 .calendar-calendar .month-view .full tr td.single-day:before {
   content: attr(data-day-of-month) ", " attr(headers);
   font-weight: bold; }
 
+/* line 182, ../sass/responsive.smartphone.portrait.scss */
 .calendar-calendar .month-view .full thead tr,
 .calendar-calendar .month-view .full tr th.days,
 .calendar-calendar .month-view .full tr td.date-box,
@@ -209,6 +243,7 @@ table.views-view-grid thead tr {
 /*======================================
 =            robs overrides            =
 ======================================*/
+/* line 193, ../sass/responsive.smartphone.portrait.scss */
 .hl-l #logo,
 .hl-l .h-group {
   margin: 0px;
@@ -216,13 +251,16 @@ table.views-view-grid thead tr {
   text-align: center;
   border: none; }
 
+/* line 200, ../sass/responsive.smartphone.portrait.scss */
 .sna-l #site-name, .ssa-l #site-slogan {
   text-align: center;
   margin-left: 28px; }
 
+/* line 202, ../sass/responsive.smartphone.portrait.scss */
 .region-header div#block-islandora-solr-simple {
   margin-top: 0px; }
 
+/* line 203, ../sass/responsive.smartphone.portrait.scss */
 .hl-l .region-header {
   float: none;
   margin: 0px 0 0 20px; }
@@ -233,11 +271,13 @@ table.views-view-grid thead tr {
 
 }
 @media only screen and (min-width:321px) and (max-width:480px) {
+/* line 1, ../sass/responsive.smartphone.landscape.scss */
 header#header div#branding {
   float: none;
   margin: auto;
   text-align: center; }
 
+/* line 6, ../sass/responsive.smartphone.landscape.scss */
 header#header div.region-header {
   display: table;
   float: none;
@@ -245,6 +285,7 @@ header#header div.region-header {
   text-align: center;
   width: auto; }
 
+/* line 13, ../sass/responsive.smartphone.landscape.scss */
 header#header div.region-header .block {
   clear: both;
   display: block;
@@ -253,9 +294,11 @@ header#header div.region-header .block {
   text-align: left;
   width: auto; }
 
+/* line 21, ../sass/responsive.smartphone.landscape.scss */
 header#header div.region-header .block-inner {
   margin: 0 20px; }
 
+/* line 24, ../sass/responsive.smartphone.landscape.scss */
 header#header div#logo,
 header#header h1#site-name,
 header#header h2#site-slogan {
@@ -264,18 +307,22 @@ header#header h2#site-slogan {
   padding: 0 0 6px;
   text-align: center; }
 
+/* line 32, ../sass/responsive.smartphone.landscape.scss */
 #menu-bar-wrapper,
 #menu-bar {
   min-height: 3em;
   height: auto; }
 
+/* line 37, ../sass/responsive.smartphone.landscape.scss */
 #menu-bar {
   padding: 0 2px; }
 
+/* line 40, ../sass/responsive.smartphone.landscape.scss */
 #menu-bar .block {
   clear: both;
   float: none; }
 
+/* line 44, ../sass/responsive.smartphone.landscape.scss */
 #menu-bar .menu-wrapper > ul,
 #menu-bar .menu-wrapper > ul > li {
   display: block;
@@ -284,21 +331,28 @@ header#header h2#site-slogan {
   overflow: hidden;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
 
+/* line 52, ../sass/responsive.smartphone.landscape.scss */
 #menu-bar .menu-wrapper ul > li > a {
   padding: 6px 10px 8px;
+  -moz-border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
   border-radius: 0 !important; }
 
+/* line 58, ../sass/responsive.smartphone.landscape.scss */
 #menu-bar .menu-wrapper ul,
 #menu-bar .menu-wrapper ul li.last {
   border: 0; }
 
+/* line 62, ../sass/responsive.smartphone.landscape.scss */
 #menu-bar .sf-menu {
   height: auto;
   padding: 2px 0; }
 
+/* line 66, ../sass/responsive.smartphone.landscape.scss */
 .region-header .block {
   overflow: hidden; }
 
+/* line 69, ../sass/responsive.smartphone.landscape.scss */
 .region-draw .block {
   float: none;
   display: block;
@@ -306,21 +360,26 @@ header#header h2#site-slogan {
   max-width: 100%;
   margin: 0 auto 10px; }
 
+/* line 76, ../sass/responsive.smartphone.landscape.scss */
 .node-title {
   font-size: 1.25em; }
 
+/* line 79, ../sass/responsive.smartphone.landscape.scss */
 #secondary-content-wrapper .block-content-inner {
   padding: 0; }
 
+/* line 82, ../sass/responsive.smartphone.landscape.scss */
 #secondary-content-wrapper .block-content-inner img {
   max-width: 280px;
   display: block;
   margin: 10px auto; }
 
+/* line 87, ../sass/responsive.smartphone.landscape.scss */
 #secondary-content-wrapper .block-content-inner .views-row {
   max-width: 90%;
   margin: auto; }
 
+/* line 91, ../sass/responsive.smartphone.landscape.scss */
 #secondary-content-wrapper .block-content-inner .image-right,
 #secondary-content-wrapper .block-content-inner .image-left,
 .field-type-image {
@@ -329,13 +388,16 @@ header#header h2#site-slogan {
   margin: auto !important;
   text-align: center !important; }
 
+/* line 99, ../sass/responsive.smartphone.landscape.scss */
 .flexslider ul.flex-direction-nav {
   top: 10px !important; }
 
+/* line 102, ../sass/responsive.smartphone.landscape.scss */
 .content-display-grid .block-inner {
   margin: 0; }
 
 /* Force tableviews-view-grid to not be like a table anymore */
+/* line 106, ../sass/responsive.smartphone.landscape.scss */
 table.views-view-grid,
 table.views-view-grid thead,
 table.views-view-grid tbody,
@@ -346,14 +408,17 @@ table.views-view-grid tr {
   padding: 0; }
 
 /* Hide table headers */
+/* line 116, ../sass/responsive.smartphone.landscape.scss */
 table.views-view-grid thead tr {
   position: absolute;
   top: -9999px;
   left: -9999px; }
 
+/* line 121, ../sass/responsive.smartphone.landscape.scss */
 .views-view-grid td {
   float: left; }
 
+/* line 124, ../sass/responsive.smartphone.landscape.scss */
 .views-view-grid .field-type-image img {
   padding-left: 0;
   padding-right: 0; }
@@ -361,9 +426,11 @@ table.views-view-grid thead tr {
 /*======================================
 =            robs overrides            =
 ======================================*/
+/* line 132, ../sass/responsive.smartphone.landscape.scss */
 .hl-l #branding {
   float: none; }
 
+/* line 135, ../sass/responsive.smartphone.landscape.scss */
 .hl-l #logo,
 .hl-l .h-group {
   margin: 0px;
@@ -371,13 +438,16 @@ table.views-view-grid thead tr {
   text-align: center;
   border: none; }
 
+/* line 142, ../sass/responsive.smartphone.landscape.scss */
 .sna-l #site-name, .ssa-l #site-slogan {
   text-align: center;
   margin-left: 28px; }
 
+/* line 144, ../sass/responsive.smartphone.landscape.scss */
 .region-header div#block-islandora-solr-simple {
   margin-top: 0px; }
 
+/* line 145, ../sass/responsive.smartphone.landscape.scss */
 .hl-l .region-header {
   float: none;
   margin: 0px 0 0 20px; }
@@ -386,11 +456,13 @@ table.views-view-grid thead tr {
 
 }
 @media only screen and (min-width:481px) and (max-width:768px) {
+/* line 1, ../sass/responsive.tablet.portrait.scss */
 header#header div#branding {
   float: none;
   margin: auto;
   text-align: center; }
 
+/* line 6, ../sass/responsive.tablet.portrait.scss */
 header#header div.region-header {
   display: table;
   float: none;
@@ -398,6 +470,7 @@ header#header div.region-header {
   text-align: center;
   width: auto; }
 
+/* line 13, ../sass/responsive.tablet.portrait.scss */
 header#header div.region-header .block {
   clear: none;
   display: inline;
@@ -406,9 +479,11 @@ header#header div.region-header .block {
   text-align: left;
   width: auto; }
 
+/* line 21, ../sass/responsive.tablet.portrait.scss */
 header#header div.region-header .block-inner {
   margin: 0 20px; }
 
+/* line 24, ../sass/responsive.tablet.portrait.scss */
 header#header div#logo,
 header#header h1#site-name,
 header#header h2#site-slogan {
@@ -417,28 +492,35 @@ header#header h2#site-slogan {
   padding: 0 0 6px;
   text-align: center; }
 
+/* line 32, ../sass/responsive.tablet.portrait.scss */
 .hl-r #logo {
   padding: 0 3px 7px 10px; }
 
+/* line 35, ../sass/responsive.tablet.portrait.scss */
 .hl-l #logo {
   padding: 0 10px 7px 3px; }
 
+/* line 38, ../sass/responsive.tablet.portrait.scss */
 #site-name {
   font-size: 1.8em; }
 
+/* line 41, ../sass/responsive.tablet.portrait.scss */
 #secondary-content-wrapper .block-content-inner .image-right,
 #secondary-content-wrapper .block-content-inner .image-left,
 #secondary-content-wrapper .block-content-inner .field-type-image,
 #secondary-content-wrapper .block-content-inner figure {
   max-width: 50%; }
 
+/* line 47, ../sass/responsive.tablet.portrait.scss */
 #secondary-content-wrapper .block-content-inner img {
   max-width: 100%; }
 
+/* line 50, ../sass/responsive.tablet.portrait.scss */
 .flexslider ul.flex-direction-nav {
   top: 25% !important; }
 
 /* Force tableviews-view-grid to not be like a table anymore */
+/* line 54, ../sass/responsive.tablet.portrait.scss */
 table.views-view-grid,
 table.views-view-grid thead,
 table.views-view-grid tbody,
@@ -449,14 +531,17 @@ table.views-view-grid tr {
   padding: 0; }
 
 /* Hide table headers */
+/* line 64, ../sass/responsive.tablet.portrait.scss */
 table.views-view-grid thead tr {
   position: absolute;
   top: -9999px;
   left: -9999px; }
 
+/* line 69, ../sass/responsive.tablet.portrait.scss */
 .views-view-grid td {
   float: left; }
 
+/* line 72, ../sass/responsive.tablet.portrait.scss */
 .views-view-grid .field-type-image img {
   padding-left: 0;
   padding-right: 0; }
@@ -465,17 +550,21 @@ table.views-view-grid thead tr {
 
 }
 @media only screen and (min-width:769px) and (max-width:1024px) {
+/* line 1, ../sass/responsive.tablet.landscape.scss */
 .hl-r #logo {
   padding: 0 3px 7px 0; }
 
+/* line 4, ../sass/responsive.tablet.landscape.scss */
 .hl-l #logo {
   /*padding: 0 0 7px 3px;*/ }
 
+/* line 7, ../sass/responsive.tablet.landscape.scss */
 #site-name {
   font-size: 2em;
   white-space: pre; }
 
 /* Force tableviews-view-grid to not be like a table anymore */
+/* line 12, ../sass/responsive.tablet.landscape.scss */
 table.views-view-grid,
 table.views-view-grid thead,
 table.views-view-grid tbody,
@@ -486,18 +575,22 @@ table.views-view-grid tr {
   padding: 0; }
 
 /* Hide table headers */
+/* line 22, ../sass/responsive.tablet.landscape.scss */
 table.views-view-grid thead tr {
   position: absolute;
   top: -9999px;
   left: -9999px; }
 
+/* line 27, ../sass/responsive.tablet.landscape.scss */
 .views-view-grid td {
   float: left; }
 
+/* line 30, ../sass/responsive.tablet.landscape.scss */
 .views-view-grid .field-type-image img {
   padding-left: 0;
   padding-right: 0; }
 
+/* line 34, ../sass/responsive.tablet.landscape.scss */
 #logo {
   border-right: 1px solid #ccc;
   margin-right: 18px;
@@ -507,6 +600,7 @@ table.views-view-grid thead tr {
 
 }
 @media only screen and (min-width:1025px) {
+
 
 /*# sourceMappingURL=responsive.desktop.css.map */
 

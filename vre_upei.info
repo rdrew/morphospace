@@ -8,7 +8,7 @@ stylesheets[all][] = css/vre_upei.css
 stylesheets[all][] = libraries/uikit/css/uikit.almost-flat.css
 
 scripts[] = libraries/uikit/js/uikit.js
-
+scripts[] = js/vre_upei.js
 
 ie_stylesheets[screen][lte IE 9][] = css/ie-lte-9.css
 regions[sidebar_first] = Sidebar first
