@@ -1,15 +1,15 @@
-/* line 1, ../sass/vre_upei.scss */
+/* line 3, ../sass/vre_upei.scss */
 div#menu-bar i {
   margin-right: 5px; }
 
-/* line 4, ../sass/vre_upei.scss */
+/* line 6, ../sass/vre_upei.scss */
 #logo {
   width: 200px; }
 
 /*=====================================
 =            utilities            =
 =====================================*/
-/* line 12, ../sass/vre_upei.scss */
+/* line 14, ../sass/vre_upei.scss */
 .frame-image {
   border: 1px solid #ccc;
   padding: 4px;
@@ -17,14 +17,14 @@ div#menu-bar i {
   border-radius: 4px; }
 
 /*-----  End of utilities  ------*/
-/* line 22, ../sass/vre_upei.scss */
+/* line 24, ../sass/vre_upei.scss */
 body {
   /*background: blue;*/ }
 
 /*=====================================
 =            general stuff            =
 =====================================*/
-/* line 32, ../sass/vre_upei.scss */
+/* line 34, ../sass/vre_upei.scss */
 ul.primary li a {
   font-weight: normal; }
 
@@ -32,48 +32,48 @@ ul.primary li a {
 /*=================================
 =            header stuff            =
 =================================*/
-/* line 42, ../sass/vre_upei.scss */
+/* line 44, ../sass/vre_upei.scss */
 #logo {
   border-right: 1px solid #ccc;
   margin-right: 18px; }
 
-/* line 43, ../sass/vre_upei.scss */
+/* line 45, ../sass/vre_upei.scss */
 #name-and-slogan {
   padding-top: 5px; }
 
-/* line 44, ../sass/vre_upei.scss */
+/* line 46, ../sass/vre_upei.scss */
 #site-name, #site-slogan {
   display: block;
   line-height: 1;
   padding-top: 5px; }
 
-/* line 45, ../sass/vre_upei.scss */
+/* line 47, ../sass/vre_upei.scss */
 #branding {
   margin: 0px; }
 
 /* this needs to be adjusted depending on the menus ie: add margin if the menus are gone */
 /*==========  search box when in header block  ==========*/
-/* line 50, ../sass/vre_upei.scss */
+/* line 52, ../sass/vre_upei.scss */
 .region-header div#block-islandora-solr-simple {
   margin-top: 26px; }
 
-/* line 51, ../sass/vre_upei.scss */
+/* line 53, ../sass/vre_upei.scss */
 div#block-islandora-solr-simple input#edit-islandora-simple-search-query {
   border: 1px solid #d2d2d2;
   font-size: 14px;
   padding: 6px; }
 
-/* line 52, ../sass/vre_upei.scss */
+/* line 54, ../sass/vre_upei.scss */
 div#block-islandora-solr-simple input#edit-submit {
   height: 31px;
   border: 1px solid #d2d2d2; }
 
 /*==========  menu bar  ==========*/
-/* line 56, ../sass/vre_upei.scss */
+/* line 58, ../sass/vre_upei.scss */
 #menu-bar {
   border-radius: 4px; }
 
-/* line 57, ../sass/vre_upei.scss */
+/* line 59, ../sass/vre_upei.scss */
 div#menu-wrapper {
   border-radius: 4px;
   padding-left: 5px;
@@ -86,15 +86,15 @@ div#menu-wrapper {
 #menu-bar li.first:hover {
     border-radius: 4px;
 }*/
-/* line 69, ../sass/vre_upei.scss */
+/* line 71, ../sass/vre_upei.scss */
 #menu-bar a.active {
   color: #f7b751; }
 
-/* line 73, ../sass/vre_upei.scss */
+/* line 75, ../sass/vre_upei.scss */
 .responsive-menus.responsified span.toggler {
   box-shadow: none; }
 
-/* line 77, ../sass/vre_upei.scss */
+/* line 79, ../sass/vre_upei.scss */
 .responsive-menus.responsified .responsive-menus-simple {
   box-shadow: none; }
 
@@ -102,65 +102,65 @@ div#menu-wrapper {
 /*===================================
 =            UPEI Footer            =
 ===================================*/
-/* line 88, ../sass/vre_upei.scss */
+/* line 90, ../sass/vre_upei.scss */
 .bottom-links {
   display: none; }
 
-/* line 89, ../sass/vre_upei.scss */
+/* line 91, ../sass/vre_upei.scss */
 .bottom-links ul {
   border-left: 1px solid #C3C3C3; }
 
-/* line 90, ../sass/vre_upei.scss */
+/* line 92, ../sass/vre_upei.scss */
 .socialmedia {
   margin: 10px 0; }
 
-/* line 91, ../sass/vre_upei.scss */
+/* line 93, ../sass/vre_upei.scss */
 div#footer-wrapper {
   background: #333; }
 
-/* line 92, ../sass/vre_upei.scss */
+/* line 94, ../sass/vre_upei.scss */
 .upei-footer {
   font-size: 13px; }
 
-/* line 93, ../sass/vre_upei.scss */
+/* line 95, ../sass/vre_upei.scss */
 .upei-footer h2 {
   font-size: 20px;
   color: #fff;
   font-weight: normal; }
 
-/* line 94, ../sass/vre_upei.scss */
+/* line 96, ../sass/vre_upei.scss */
 .upei-footer a {
   color: #ccc; }
 
-/* line 95, ../sass/vre_upei.scss */
+/* line 97, ../sass/vre_upei.scss */
 .upei-footer a:hover {
   color: #f7b751; }
 
-/* line 96, ../sass/vre_upei.scss */
+/* line 98, ../sass/vre_upei.scss */
 .upei-footer .links-last, .upei-footer .links-last a {
   color: #ccc; }
 
-/* line 97, ../sass/vre_upei.scss */
+/* line 99, ../sass/vre_upei.scss */
 .upei-footer li {
   line-height: 142%; }
 
-/* line 98, ../sass/vre_upei.scss */
+/* line 100, ../sass/vre_upei.scss */
 .upei-footer .address {
   color: #fff; }
 
-/* line 99, ../sass/vre_upei.scss */
+/* line 101, ../sass/vre_upei.scss */
 .upei-footer ul.menu li.leaf {
   list-style-image: none;
   list-style-type: none;
   margin-left: 5px; }
 
-/* line 100, ../sass/vre_upei.scss */
+/* line 102, ../sass/vre_upei.scss */
 .upei-footer ul.menu {
   padding: 0px;
   margin: 0px; }
 
 @media (min-width: 600px) {
-  /* line 103, ../sass/vre_upei.scss */
+  /* line 105, ../sass/vre_upei.scss */
   div#links-section {
     overflow: hidden;
     *zoom: 1; }
@@ -171,39 +171,39 @@ div#footer-wrapper {
   .menu-04 { width: 28.57143%; clear: right; float: left; margin-left: 0; margin-right: 7.14286%; clear: both; }
   .menu-05 { width: 28.57143%; clear: right; float: left; margin-right: 7.14286%; }
   */
-  /* line 110, ../sass/vre_upei.scss */
+  /* line 112, ../sass/vre_upei.scss */
   .inner-footeraddress {
     margin-top: 10px; }
 
-  /* line 111, ../sass/vre_upei.scss */
+  /* line 113, ../sass/vre_upei.scss */
   .footeraddress {
     width: 100%;
     clear: right;
     float: right;
     margin-right: 0; }
 
-  /* line 112, ../sass/vre_upei.scss */
+  /* line 114, ../sass/vre_upei.scss */
   .socialmedia {
     padding: 12px 0; } }
 @media (min-width: 800px) {
-  /* line 116, ../sass/vre_upei.scss */
+  /* line 118, ../sass/vre_upei.scss */
   .socialmedia {
     margin: 0; }
 
-  /* line 117, ../sass/vre_upei.scss */
+  /* line 119, ../sass/vre_upei.scss */
   .bottom-links {
     display: inherit; }
 
-  /* line 118, ../sass/vre_upei.scss */
+  /* line 120, ../sass/vre_upei.scss */
   .socialmedia {
     padding: 12px 0; }
 
-  /* line 119, ../sass/vre_upei.scss */
+  /* line 121, ../sass/vre_upei.scss */
   div#links-section {
     overflow: hidden;
     *zoom: 1; }
 
-  /* line 120, ../sass/vre_upei.scss */
+  /* line 122, ../sass/vre_upei.scss */
   .menu-01 {
     width: 18.18182%;
     float: left;
@@ -211,7 +211,7 @@ div#footer-wrapper {
     margin-left: 0;
     clear: none; }
 
-  /* line 121, ../sass/vre_upei.scss */
+  /* line 123, ../sass/vre_upei.scss */
   .menu-02 {
     width: 18.18182%;
     float: left;
@@ -219,7 +219,7 @@ div#footer-wrapper {
     margin-left: 20.45455%;
     clear: none; }
 
-  /* line 122, ../sass/vre_upei.scss */
+  /* line 124, ../sass/vre_upei.scss */
   .menu-03 {
     width: 18.18182%;
     float: left;
@@ -227,7 +227,7 @@ div#footer-wrapper {
     margin-left: 40.90909%;
     clear: none; }
 
-  /* line 123, ../sass/vre_upei.scss */
+  /* line 125, ../sass/vre_upei.scss */
   .menu-04 {
     width: 18.18182%;
     float: left;
@@ -235,7 +235,7 @@ div#footer-wrapper {
     margin-left: 61.36364%;
     clear: none; }
 
-  /* line 124, ../sass/vre_upei.scss */
+  /* line 126, ../sass/vre_upei.scss */
   .menu-05 {
     width: 18.18182%;
     float: right;
@@ -243,13 +243,13 @@ div#footer-wrapper {
     margin-right: 0;
     clear: none; }
 
-  /* line 125, ../sass/vre_upei.scss */
+  /* line 127, ../sass/vre_upei.scss */
   .inner-footeraddress {
     margin-top: 10px;
     overflow: hidden;
     *zoom: 1; }
 
-  /* line 126, ../sass/vre_upei.scss */
+  /* line 128, ../sass/vre_upei.scss */
   .footeraddress {
     width: 100%;
     float: right;
@@ -260,7 +260,7 @@ div#footer-wrapper {
     padding-top: 10px;
     margin-top: 5px; }
 
-  /* line 127, ../sass/vre_upei.scss */
+  /* line 129, ../sass/vre_upei.scss */
   .addressleft {
     width: 59.09091%;
     float: left;
@@ -268,7 +268,7 @@ div#footer-wrapper {
     margin-left: 0;
     clear: none; }
 
-  /* line 128, ../sass/vre_upei.scss */
+  /* line 130, ../sass/vre_upei.scss */
   .footerlogo {
     width: 18.18182%;
     float: right;
@@ -276,7 +276,7 @@ div#footer-wrapper {
     margin-right: 0;
     clear: none; }
 
-  /* line 129, ../sass/vre_upei.scss */
+  /* line 131, ../sass/vre_upei.scss */
   .socialmedia {
     width: 18.18182%;
     float: left;
@@ -286,21 +286,59 @@ div#footer-wrapper {
     text-align: right;
     padding-top: 27px; } }
 /*-----  End of UPEI Footer  ------*/
-/* line 136, ../sass/vre_upei.scss */
+/* line 138, ../sass/vre_upei.scss */
 body.page-islandora-object {
   font-size: 100%; }
 
-/* line 140, ../sass/vre_upei.scss */
+/* line 142, ../sass/vre_upei.scss */
 #BRpager {
   background: initial;
   border: 0px; }
 
-/* line 141, ../sass/vre_upei.scss */
+/* line 143, ../sass/vre_upei.scss */
 #header-wrapper header {
   margin: 10px; }
 
-/* line 143, ../sass/vre_upei.scss */
+/* line 145, ../sass/vre_upei.scss */
 #content-wrapper.no-secondary {
   padding-top: 2em; }
+
+/* line 1, ../sass/_morphospace-tweaks.scss */
+#content-wrapper.no-secondary {
+  padding-top: 2em; }
+
+/* line 5, ../sass/_morphospace-tweaks.scss */
+.islandora-metadata {
+  /*@include remove_fieldset;*/ }
+  /* line 7, ../sass/_morphospace-tweaks.scss */
+  .islandora-metadata dl {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin: 0; }
+  /* line 14, ../sass/_morphospace-tweaks.scss */
+  .islandora-metadata dt {
+    margin-right: -1px;
+    width: 15%;
+    font-weight: bold;
+    padding-right: 0;
+    word-wrap: normal; }
+  /* line 22, ../sass/_morphospace-tweaks.scss */
+  .islandora-metadata dd {
+    width: 85%;
+    padding-left: 40px; }
+
+/* line 30, ../sass/_morphospace-tweaks.scss */
+.islandora-basic-image-content {
+  background-color: white;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  padding: 15px;
+  float: left;
+  width: auto;
+  max-width: 100%;
+  margin-bottom: 1em; }
 
 /*# sourceMappingURL=vre_upei.css.map */

@@ -1,3 +1,41 @@
 #content-wrapper.no-secondary {
-    padding-top: 2em;
+	padding-top: 2em;
+}
+
+.islandora-metadata {
+	/*@include remove_fieldset;*/
+	dl {
+		background: white;
+		border: 1px solid #ccc;
+		padding: 1em;
+		margin: 0;
+	}
+
+	dt {
+		margin-right: -1px;
+		width: 15%;
+		font-weight: bold;
+		padding-right: 0;
+		word-wrap: normal;
+	}
+
+	dd {
+		width: 85%;
+		padding-left: 40px;
+	}
+}
+
+.islandora-inline-metadata {
+}
+.islandora-basic-image-content {
+    background-color: white;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 15px;
+    float: left;
+    width: auto;
+    max-width: 100%;
+	margin-bottom: 1em;
 }
