@@ -5,7 +5,7 @@ module.exports = function (grunt) {
   grunt.initConfig({
     watch: {
       options: {
-        livereload: true
+        //livereload: true
       },
       sass: {
         files: ['sass/{,**/}*.{scss,sass}'],

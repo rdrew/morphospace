@@ -304,31 +304,38 @@ body.page-islandora-object {
   padding-top: 2em; }
 
 /* line 1, ../sass/_morphospace-tweaks.scss */
+.collection_slideshow {
+  background-color: white;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px; }
+
+/* line 7, ../sass/_morphospace-tweaks.scss */
 #content-wrapper.no-secondary {
   padding-top: 2em; }
 
-/* line 5, ../sass/_morphospace-tweaks.scss */
+/* line 11, ../sass/_morphospace-tweaks.scss */
 .islandora-metadata {
   /*@include remove_fieldset;*/ }
-  /* line 7, ../sass/_morphospace-tweaks.scss */
+  /* line 13, ../sass/_morphospace-tweaks.scss */
   .islandora-metadata dl {
     background: white;
     border: 1px solid #ccc;
     padding: 1em;
     margin: 0; }
-  /* line 14, ../sass/_morphospace-tweaks.scss */
+  /* line 20, ../sass/_morphospace-tweaks.scss */
   .islandora-metadata dt {
     margin-right: -1px;
     width: 15%;
     font-weight: bold;
     padding-right: 0;
     word-wrap: normal; }
-  /* line 22, ../sass/_morphospace-tweaks.scss */
+  /* line 28, ../sass/_morphospace-tweaks.scss */
   .islandora-metadata dd {
     width: 85%;
     padding-left: 40px; }
 
-/* line 30, ../sass/_morphospace-tweaks.scss */
+/* line 36, ../sass/_morphospace-tweaks.scss */
 .islandora-basic-image-content {
   background-color: white;
   border: 1px solid #ddd;
