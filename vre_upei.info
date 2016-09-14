@@ -7,10 +7,10 @@ stylesheets[all][] = color/colors.css
 stylesheets[all][] = css/vre_upei.css
 ;this uikit stuff may not be relavent
 stylesheets[all][] = libraries/uikit/css/uikit.almost-flat.css
-stylesheets[all][] = libraries/flipster/dist/jquery.flipster.min.css
+;stylesheets[all][] = libraries/flipster/dist/jquery.flipster.min.css
 
 scripts[] = libraries/uikit/js/uikit.js
-scripts[] = libraries/flipster/dist/jquery.flipster.min.js
+;scripts[] = libraries/flipster/dist/jquery.flipster.min.js
 scripts[] = js/vre_upei.js
 
 ie_stylesheets[screen][lte IE 9][] = css/ie-lte-9.css
