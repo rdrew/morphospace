@@ -16,12 +16,17 @@
 		attach: function (context, settings) {
 
 			$('.collection_slideshow').flipster({
-
 				style: 'carousel',
 			spacing: -0.5,
 			buttons: true,
-
-
+			});
+			
+			$('.home .collection_slideshow').flipster({
+				style: 'carousel',
+				loop: true,
+				autoplay: 3000,
+				spacing: -0.5,
+				buttons: true,
 			});
 
 			$("#coverflow").flipster({
