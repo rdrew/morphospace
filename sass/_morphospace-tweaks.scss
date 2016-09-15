@@ -78,6 +78,36 @@
 	margin-bottom: 1em;
 }
 
+/*--------------------------*/
+/*-  collection grid view  -*/
+/*--------------------------*/
+.islandora-basic-collection-grid dl {
+	width: 20%;
+	min-width: 100px;
+	min-height: 180px;
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: top;
+	margin: 1.5em 1.84%;
+	zoom: 1;
+	background: #fff;
+	_height: 180px;
+	padding: 10px;
+	border: 1px solid #ccc;
+
+	img {
+		width: 100%;
+	}
+}
+/*----------------*/
+/*-  pagination  -*/
+/*----------------*/
+.uk-pagination > li > a {
+    background: #fff  !important;
+	border: 1px solid #ddd  !important;
+    color: #444444;
+    text-shadow: 0 1px 0 #ffffff;
+}
 /*---------------------------------------------------------------*/
 /*-  delete in production (only here to make live reload work)  -*/
 /*---------------------------------------------------------------*/
