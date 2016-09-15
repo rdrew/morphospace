@@ -20,7 +20,16 @@
 			spacing: -0.5,
 			buttons: true,
 			});
-			
+
+			$('.flat .collection_slideshow').flipster({
+
+				style: 'flat',
+				spacing: -0.25,
+				loop: true,
+				autoplay: 3000,
+
+			});
+
 			$('.home .collection_slideshow').flipster({
 				style: 'carousel',
 				loop: true,
