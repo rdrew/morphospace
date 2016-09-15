@@ -1,18 +1,17 @@
-/* line 1, ../sass/responsive.tablet.landscape.scss */
 .hl-r #logo {
-  padding: 0 3px 7px 0; }
+  padding: 0 3px 7px 0;
+}
 
-/* line 4, ../sass/responsive.tablet.landscape.scss */
 .hl-l #logo {
-  /*padding: 0 0 7px 3px;*/ }
+  /*padding: 0 0 7px 3px;*/
+}
 
-/* line 7, ../sass/responsive.tablet.landscape.scss */
 #site-name {
   font-size: 2em;
-  white-space: pre; }
+  white-space: pre;
+}
 
 /* Force tableviews-view-grid to not be like a table anymore */
-/* line 12, ../sass/responsive.tablet.landscape.scss */
 table.views-view-grid,
 table.views-view-grid thead,
 table.views-view-grid tbody,
@@ -20,28 +19,27 @@ table.views-view-grid th,
 table.views-view-grid td,
 table.views-view-grid tr {
   display: block;
-  padding: 0; }
+  padding: 0;
+}
 
 /* Hide table headers */
-/* line 22, ../sass/responsive.tablet.landscape.scss */
 table.views-view-grid thead tr {
   position: absolute;
   top: -9999px;
-  left: -9999px; }
+  left: -9999px;
+}
 
-/* line 27, ../sass/responsive.tablet.landscape.scss */
 .views-view-grid td {
-  float: left; }
+  float: left;
+}
 
-/* line 30, ../sass/responsive.tablet.landscape.scss */
 .views-view-grid .field-type-image img {
   padding-left: 0;
-  padding-right: 0; }
+  padding-right: 0;
+}
 
-/* line 34, ../sass/responsive.tablet.landscape.scss */
 #logo {
   border-right: 1px solid #ccc;
   margin-right: 18px;
-  padding-right: 18px; }
-
-/*# sourceMappingURL=responsive.tablet.landscape.css.map */
+  padding-right: 18px;
+}
