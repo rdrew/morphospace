@@ -1,26 +1,27 @@
+/* line 1, ../sass/responsive-tables.scss */
 table th {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
+/* line 4, ../sass/responsive-tables.scss */
 table td,
 table th {
   padding: 9px 10px;
-  text-align: left;
-}
+  text-align: left; }
 
 /* Mobile */
 @media only screen and (max-width: 767px) {
+  /* line 13, ../sass/responsive-tables.scss */
   table.responsive {
-    margin-bottom: 0;
-  }
+    margin-bottom: 0; }
 
+  /* line 17, ../sass/responsive-tables.scss */
   table.responsive td,
   .pinned td {
     height: 30px;
     padding: 5px;
-    margin: 0px;
-  }
+    margin: 0px; }
 
+  /* line 24, ../sass/responsive-tables.scss */
   .pinned {
     position: absolute;
     left: 0;
@@ -30,56 +31,56 @@ table th {
     white-space: nowrap;
     overflow-x: scroll;
     border-right: 1px solid #ccc;
-    border-left: 1px solid #ccc;
-  }
+    border-left: 1px solid #ccc; }
 
+  /* line 36, ../sass/responsive-tables.scss */
   .pinned table {
     border-right: none;
     border-left: none;
-    width: 100%;
-  }
+    width: 100%; }
 
+  /* line 42, ../sass/responsive-tables.scss */
   .pinned table th {
-    white-space: nowrap;
-  }
+    white-space: nowrap; }
 
+  /* line 46, ../sass/responsive-tables.scss */
   .pinned td:last-child {
-    border-bottom: 0;
-  }
+    border-bottom: 0; }
 
+  /* line 50, ../sass/responsive-tables.scss */
   div.table-wrapper {
     position: relative;
     margin-bottom: 20px;
     overflow: hidden;
     border-bottom: 1px solid #ccc;
-    border-right: 1px solid #ccc;
-  }
+    border-right: 1px solid #ccc; }
 
+  /* line 58, ../sass/responsive-tables.scss */
   div.table-wrapper div.scrollable {
-    margin-left: 35%;
-  }
+    margin-left: 35%; }
 
+  /* line 62, ../sass/responsive-tables.scss */
   div.table-wrapper div.scrollable {
     overflow: scroll;
-    overflow-y: hidden;
-  }
+    overflow-y: hidden; }
 
+  /* line 67, ../sass/responsive-tables.scss */
   table.responsive td,
   table.responsive th {
     position: relative;
     white-space: nowrap;
-    overflow: hidden;
-  }
+    overflow: hidden; }
 
+  /* line 74, ../sass/responsive-tables.scss */
   .pinned th,
   table.responsive th {
-    border-bottom: 1px solid #ccc;
-  }
+    border-bottom: 1px solid #ccc; }
 
+  /* line 79, ../sass/responsive-tables.scss */
   table.responsive th:first-child,
   table.responsive td:first-child,
   table.responsive td:first-child,
   table.responsive.pinned td {
-    display: none;
-  }
-}
+    display: none; } }
+
+/*# sourceMappingURL=responsive-tables.css.map */
